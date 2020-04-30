@@ -14,8 +14,9 @@ html{
 body{
     width:100%;
     height:100%;
-    background: url("/assets/images/dark-paths.png") no-repeat center fixed;
-    background-size: cover;
+    background-color: #221e3f;
+/*     background: url('assets/images/mosaic.png') no-repeat center fixed; */
+     background-size: cover;
 }
 
 a{
@@ -214,7 +215,7 @@ li{
 .landing-text h6{
     font-size: 2rem; 
     font-weight: 300;
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 
 
 }
 
