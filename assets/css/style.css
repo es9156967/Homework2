@@ -14,9 +14,8 @@ html{
 body{
     width:100%;
     height:100%;
-    background-color: #221e3f;
-/*     background: url('assets/images/mosaic.png') no-repeat center fixed; */
-     background-size: cover;
+    background: url(../images/dark-paths.png) no-repeat center fixed; 
+    background-size: cover;
 }
 
 a{
@@ -31,6 +30,7 @@ p{
 
 img{
     width:100%;
+    padding:2rem;
 }
 
 
@@ -134,7 +134,7 @@ li{
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #0077df, #009a03);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -163,7 +163,7 @@ li{
 }
 
 .bar{
-    background: linear-gradient(to right, #ffe838, #fd57bf);
+    background: linear-gradient(to right, #0077df, #009a03);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -205,7 +205,7 @@ li{
 .landing-text h1{
     font-size: 13.5rem;
     font-family: 'The Historia Demo', sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #0077df, #009a03);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem; 
@@ -265,15 +265,11 @@ li{
     transition: color 650ms;
 }
 
-.fa-facebook-square:hover{
-    color: #4267b2;
-}
-
-.fa-linkedin-square:hover{
+.fa-linkedin:hover{
     color: green;
 }
 
-.fa-twitter-square:hover{
+.fa-github-square:hover{
     color: #38a1f3;
 }
 
@@ -456,12 +452,12 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: #009a03;
 }
 
 input[type="submit"]{
     width: initial;
-    background-color: #fd57bf;
+    background-color: #0077df;
     color: #eee;
     padding: 1rem 2rem;
     border-radius: .8rem;
@@ -471,7 +467,7 @@ input[type="submit"]{
 
 input[type="submit"]:hover{
     color:#221e3f;
-    background-color: #ffe838;
+    background-color: #009a03;
 }
 
 /*End contact*/
@@ -517,14 +513,14 @@ input[type="submit"]:hover{
 
 @keyframes pulse{
     0%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+        box-shadow: 0 0 0 0 rgba(13, 197, 13, 0.919);
     }
     70%{
-        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 2rem rgba(27, 117, 27, 0);
 
     }
     100%{
-        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+        box-shadow: 0 0 0 0 rgba(27, 117, 27, 0);
     }
 }
 
@@ -534,7 +530,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width : 768px){
     body{
-        background: url("/assets/images/dark-paths.png") no-repeat center fixed;
+        background: url(..assets/images/dark-paths.png) no-repeat center fixed;
         background-size: cover;
     }
 
